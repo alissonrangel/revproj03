@@ -1,0 +1,264 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/02/2019, 15:13:51
+    Author     : alissoncarvalho
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+body{
+    background-color: #F5F6F9;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+    height: 30px;
+    background-color: #38363A;
+}
+.menu{
+    width: 50%;
+    float: left;
+    height: 30px;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    line-height: 30px;
+    float: left;
+}
+
+.menu li a{
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+.menu li a:hover{
+    background-color: #85808A;
+}
+
+.ativado{
+    color: #036C8C;
+}
+
+.social{
+    width: 50%;
+    float: right;
+    height: 30px;
+    text-align: right;
+    
+}
+
+.social img{
+    width: 26px;
+    height: 26px;
+    float: right;
+    margin: 2px 2px;
+}
+
+.busca{
+    height: 26px;
+    width: 110px;
+    outline: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 2px 2px;
+    float: right;
+    box-sizing: border-box;
+}
+
+.image{
+    width: 20px;
+    height: 20px;
+    margin: 5px 2px;
+    float: right;
+}
+
+.banner{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.logo{
+    height: 88px;
+    width: 230px;
+    float: left;
+    margin-top: 12px;
+}
+
+.publicidade{
+    height: 90px;
+    width: 650px;
+    float: right;
+    background-color: red;
+    margin: 5px 0;
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    font-size: 40px; 
+}
+.menu_principal{
+    width: 100%;
+    height: 40px;
+    background-color: #f00;
+    
+}
+.menudd a{
+    color: white;
+    padding: 10px;
+}
+
+.menudd li:hover{
+    background-color: #F97076;
+}
+
+.menudd li{
+    float: left;
+    line-height: 40px;
+}
+
+.menudd ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menudd li:hover .submenu{
+    display: block;
+}
+
+.submenu {
+    width: auto;
+    background-color: #f00;
+    display: none;
+}
+
+.submenu li, .subsubmenu li{
+    float: none;
+}
+
+.menudd .submenu li:hover .subsubmenu{
+    width: auto;
+    height: auto;
+    display: block;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -40px;
+    background-color: #f00;
+}
+
+.subsubmenu{
+    display: none;
+}
+
+.ultimas{
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    margin-top: 8px;
+    height: 30px;
+    background-color: #fff;
+}
+
+.vermelha{
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color: #f00;
+    color: #fff;
+    line-height: 30px;
+    
+}
+
+.branca{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    background-color: #fff;
+    padding-left: 10px;
+    border: 0px solid green;
+    box-sizing: border-box;
+}
+
+.principal{
+    margin-top: 15px;
+}
+
+.esquerda{
+    width: 753px;
+    min-height: 200px;
+    background-color: #ddd;
+    float: left;
+}
+
+.direita{
+    width: 275px;
+    float: right;
+    min-height: 200px;
+    
+}
+
+.widget{
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.titulo{
+    height: 30px;
+    width: 272px;
+    background-color: #F8F9FB;
+    text-transform: uppercase;
+    color: #767F7E;
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+}
+
+.conteudo{
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.conteudo img{  
+    padding: 3px 0 0 0;
+}
+
+.um{
+    padding: 5px 0;
+    margin: 0 7px;
+    border-bottom: 1px solid #F7F8F9;
+    text-align: left;
+    color: #767F7E;
+}
